@@ -19,4 +19,4 @@ define('RUNTIME_PATH', PIN_DATA_PATH . 'runtime/');
 define('HTML_PATH', PIN_DATA_PATH . 'html/');
 /* DEBUG开关*/
 define('APP_DEBUG', false);
-require("./_core/setup.php");
+require("./_core/setup.php"); 
