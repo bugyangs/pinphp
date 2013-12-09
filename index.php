@@ -1,8 +1,4 @@
 <?php
-if (!is_file('./data/install.lock')) {
-    header('Location: ./install.php');
-    exit;
-}
 /* 当前PinPHP程序版本 */
 define('PIN_VERSION', '3.0');
 /* 当前PinPHP程序Release */
