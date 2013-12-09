@@ -18,5 +18,5 @@ define('RUNTIME_PATH', PIN_DATA_PATH . 'runtime/');
 /* HTML静态文件目录*/
 define('HTML_PATH', PIN_DATA_PATH . 'html/');
 /* DEBUG开关*/
-define('APP_DEBUG', false);
-require("./_core/setup.php"); 
+define('APP_DEBUG', true);
+require("./_core/setup.php");
